@@ -1,0 +1,223 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hii",
+        "hiii",
+        "hey there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "what's up",
+        "how are you",
+        "hello there",
+        "hi chatbot",
+        "hey chatbot"
+      ],
+      "responses": [
+        "Hey! 👋 Welcome to Nexa AI. How can I help you today?",
+        "Hello! 😊 I'm Nexa AI. What would you like to learn?",
+        "Hi there! ✨ Ask me about Python, NLP, machine learning, or study tips."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see you",
+        "talk to you later",
+        "I am leaving",
+        "exit",
+        "quit",
+        "have a nice day",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! 👋 Keep learning and keep growing.",
+        "See you soon! ✨ Have a productive day.",
+        "Bye! Thanks for chatting with Nexa AI. 😊"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thank you so much",
+        "thanks a lot",
+        "that helped",
+        "I appreciate it",
+        "great help",
+        "many thanks",
+        "thanks chatbot",
+        "you are helpful"
+      ],
+      "responses": [
+        "You're welcome! 😊 Happy to help.",
+        "Anytime! Keep up the great work. 🚀",
+        "Glad I could help! What else would you like to explore?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "tell me about yourself",
+        "what is your name",
+        "who created you",
+        "introduce yourself",
+        "what can you do",
+        "what is Nexa AI",
+        "are you a chatbot",
+        "tell me about Nexa"
+      ],
+      "responses": [
+        "I'm Nexa AI, a student-friendly chatbot built with Python and NLP. 🤖",
+        "I'm Nexa AI! I can answer selected questions about programming, NLP, machine learning, and study tips.",
+        "I'm a chatbot that uses machine learning to identify message categories and provide predefined responses."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "give me study tips",
+        "how should I study",
+        "help me prepare for exams",
+        "how can I focus on studies",
+        "how do I study effectively",
+        "tips for exam preparation",
+        "how to avoid distractions",
+        "make me a study plan",
+        "how can I improve my concentration",
+        "I have exams soon",
+        "how to manage study time"
+      ],
+      "responses": [
+        "📚 Try studying for 25 minutes, then take a 5-minute break. Revise what you learned at the end.",
+        "Make a realistic daily timetable, practise questions, and keep your phone away while studying.",
+        "Start with one small topic, use active recall, and revise it again the next day. Consistency matters!"
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "what is Python",
+        "teach me Python",
+        "how do I learn programming",
+        "what is coding",
+        "explain programming",
+        "how to start coding",
+        "what is a variable",
+        "help me with Python",
+        "which programming language should I learn",
+        "what is a function",
+        "how can I improve coding skills"
+      ],
+      "responses": [
+        "🐍 Python is a beginner-friendly programming language used in automation, web development, data science, and AI.",
+        "Start coding with variables, data types, conditions, loops, functions, and small projects.",
+        "The best way to improve programming is to practise daily and build small projects. Start simple and increase difficulty gradually."
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "what is NLP",
+        "explain natural language processing",
+        "what is natural language processing",
+        "how does NLP work",
+        "give me an NLP example",
+        "where is NLP used",
+        "what are NLP applications",
+        "what is tokenization",
+        "what is sentiment analysis",
+        "how do computers understand language",
+        "tell me about NLP"
+      ],
+      "responses": [
+        "🗣️ Natural Language Processing (NLP) helps computers process and analyse human language. Chatbots and translation tools use NLP.",
+        "NLP includes tasks such as tokenization, sentiment analysis, text classification, and language translation.",
+        "For example, sentiment analysis can classify a review as positive, negative, or neutral."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "what is machine learning",
+        "explain ML",
+        "what are types of machine learning",
+        "what is supervised learning",
+        "what is unsupervised learning",
+        "what is reinforcement learning",
+        "give me a machine learning example",
+        "how does machine learning work",
+        "what is overfitting",
+        "what is a training dataset",
+        "tell me about artificial intelligence"
+      ],
+      "responses": [
+        "🧠 Machine learning allows computers to learn patterns from data and use them to make predictions or decisions.",
+        "The three common learning types are supervised learning, unsupervised learning, and reinforcement learning.",
+        "An example is a spam filter that learns to classify emails using labelled training data."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "I feel demotivated",
+        "give me motivation",
+        "I feel like giving up",
+        "I cannot do this",
+        "encourage me",
+        "I am feeling lazy",
+        "I need inspiration",
+        "I am stressed about studies",
+        "say something positive",
+        "I have lost confidence"
+      ],
+      "responses": [
+        "🌟 You don't need to be perfect. Just take the next small step and keep going.",
+        "Progress takes time. Every problem you solve is a chance to become better.",
+        "Believe in your ability to learn. Start with five minutes of focused work and build momentum."
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": [
+        "tell me a fun fact",
+        "share an interesting fact",
+        "surprise me",
+        "tell me something interesting",
+        "give me a random fact",
+        "I am bored",
+        "entertain me",
+        "tell me a science fact",
+        "give me a tech fact",
+        "any interesting fact"
+      ],
+      "responses": [
+        "💡 Fun fact: The first computer bug was famously associated with a moth found in a computer in 1947.",
+        "🌍 Fun fact: Octopuses have three hearts.",
+        "🚀 Tech fact: The first version of Python was released in 1991."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not quite sure I understood that. 😊 Try asking about Python, NLP, machine learning, study tips, or motivation.",
+        "Hmm, I haven't learned how to answer that yet. 🤔 Try asking me a question about one of my supported topics.",
+        "I may need a different question. 💡 Ask me about programming, machine learning, NLP, or exam preparation."
+      ]
+    }
+  ]
+}
