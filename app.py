@@ -511,26 +511,27 @@ if user_message and user_message.strip():
 # ---------- Nexa AI Footer ----------
 st.markdown("---")
 
-st.markdown("""
-<div style="
-    text-align: center;
-    padding: 12px 8px 18px 8px;
-    color: #64748b;
-    font-size: 13px;
-    line-height: 1.9;
-">
+st.markdown(
+    """
     <div style="
-        font-size: 17px;
-        font-weight: 700;
-        color: #6366f1;
+        text-align: center;
+        padding: 18px 10px;
+        color: #94a3b8;
+        font-size: 13px;
+        line-height: 1.8;
     ">
-        ✨ Nexa AI
+        <div style="font-size: 18px; font-weight: 700; color: #818cf8;">
+            ✨ Nexa AI
+        </div>
+        <div>© 2026 Tanya Patel</div>
+        <div>
+            Developed by
+            <strong style="color: #a78bfa;">Tanya Patel</strong>
+        </div>
+        <div style="font-size: 12px;">
+            Aspiring AI/ML Engineer | Python Developer
+        </div>
     </div>
-
-    <div>© 2026 Tanya Patel</div>
-
-    <div style="font-size: 12px;">
-        Aspiring AI/ML Engineer | Python Developer
-    </div>
-</div>
-""", unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
