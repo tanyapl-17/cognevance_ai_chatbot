@@ -513,21 +513,13 @@ st.markdown("---")
 
 st.markdown(
     """
-    <div style="
-        text-align: center;
-        padding: 18px 10px;
-        color: #94a3b8;
-        font-size: 13px;
-        line-height: 1.8;
-    ">
-        <div style="font-size: 18px; font-weight: 700; color: #818cf8;">
+    <div style="text-align:center; padding:18px 10px;
+                color:#94a3b8; font-size:13px; line-height:1.8;">
+        <div style="font-size:18px; font-weight:700; color:#818cf8;">
             ✨ Nexa AI
         </div>
         <div>© 2026 Tanya Patel</div>
-       
-        <div style="font-size: 12px;">
-            Aspiring AI/ML Engineer | Python Developer
-        </div>
+        <div>Aspiring AI/ML Engineer | Python Developer</div>
     </div>
     """,
     unsafe_allow_html=True
