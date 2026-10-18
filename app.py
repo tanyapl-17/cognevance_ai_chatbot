@@ -524,10 +524,7 @@ st.markdown(
             ✨ Nexa AI
         </div>
         <div>© 2026 Tanya Patel</div>
-        <div>
-            Developed by
-            <strong style="color: #a78bfa;">Tanya Patel</strong>
-        </div>
+       
         <div style="font-size: 12px;">
             Aspiring AI/ML Engineer | Python Developer
         </div>
